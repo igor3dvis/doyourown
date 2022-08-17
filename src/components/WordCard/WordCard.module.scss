@@ -1,0 +1,54 @@
+@import "../../variables.scss";
+
+.cardWrapper {
+  margin-bottom: 1em;
+  padding: 0.6em;
+  color: $color_text_secondary;
+  border-radius: 8px;
+  box-shadow: $shadow_main;
+
+  .wordsEnRu {
+    display: grid;
+    grid-template-columns: 30% 1fr max-content;
+    align-items: center;
+    padding-bottom: 12px;
+    font-size: 1.4rem;
+    font-weight: 800;
+
+    .otherFormsBlock {
+      display: grid;
+      grid-template-columns: max-content max-content;
+      justify-items: end;
+      align-items: baseline;
+      padding-left: 1em;
+      font-size: 1rem;
+      font-weight: 600;
+
+      .defenition {
+        padding-right: 6px;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 0.8rem;
+      }
+
+      .defenitionVerb {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: end;
+        align-items: center;
+        gap: 4px;
+        padding-right: 6px;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 0.8rem;
+      }
+
+      .otherFormsVerb {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: start;
+        align-items: center;
+      }
+    }
+  }
+}

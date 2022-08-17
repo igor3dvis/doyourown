@@ -1,0 +1,30 @@
+@import './variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: $color_text_secondary;
+  font-weight: 600;
+  transition: 400ms;
+}
+
+a:hover{
+  color: $color_text_main;
+  transform: translateX(6px);
+  transition: 200ms;
+}
+
+.appWrapper{
+  color: $color_text_main;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+     sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+

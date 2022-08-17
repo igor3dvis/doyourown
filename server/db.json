@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Igor",
+      "language": "eng"
+    },
+    {
+      "id": 2,
+      "name": "Oksana",
+      "language": "german"
+    },
+    {
+      "usersCount": 2
+    }
+  ],
+  "wordsEn": [
+    {
+      "id": "20220707221940",
+      "wordEn": "table",
+      "wordRu": "стол",
+      "type": "noun",
+      "countGame": 0,
+      "noun": {
+        "multyForm": "tables"
+      }
+    },
+    {
+      "id": "20220712003503",
+      "wordEn": "test",
+      "wordRu": "тест",
+      "type": "noun",
+      "countGame": 12,
+      "noun": {
+        "multyForm": "tests"
+      }
+    },
+    {
+      "id": "20220712014847",
+      "wordEn": "run",
+      "wordRu": "бегать",
+      "type": "verb",
+      "countGame": 22,
+      "verb": {
+        "heSheItForm": "runs",
+        "pastForm": "ran?",
+        "thirdForm": "ran?"
+      }
+    },
+    {
+      "id": "20220715222448",
+      "wordEn": "apple",
+      "wordRu": "яблоко",
+      "type": "noun",
+      "countGame": 0,
+      "noun": {
+        "multyForm": "apples"
+      }
+    },
+    {
+      "id": "20220715222620",
+      "wordEn": "boll",
+      "wordRu": "мяч",
+      "type": "noun",
+      "countGame": 0,
+      "noun": {
+        "multyForm": "bolls"
+      }
+    },
+    {
+      "id": "20220715222706",
+      "wordEn": "arm",
+      "wordRu": "рука",
+      "type": "noun",
+      "countGame": 15,
+      "noun": {
+        "multyForm": "arms"
+      }
+    },
+    {
+      "id": "20220715222854",
+      "wordEn": "grass",
+      "wordRu": "трава",
+      "type": "noun",
+      "countGame": 0,
+      "noun": {
+        "multyForm": "grasses"
+      }
+    },
+    {
+      "id": "20220715222937",
+      "wordEn": "project",
+      "wordRu": "проект",
+      "type": "noun",
+      "countGame": 21,
+      "noun": {
+        "multyForm": "projects"
+      }
+    }
+  ],
+  "usualEn": [
+    {
+      "id": "20220707221940",
+      "description": "It is an item of Furniture",
+      "usualCase": "The table is withe. - Этот стол белый."
+    },
+    {
+      "id": "20220712003503",
+      "description": "This word has several meanings: \n- Medical test. \n- A test of knowledge of something. \n- A software test.",
+      "usualCase": "Today we started writing tests for our application. - Сегодня мы начали писать тесты для нашего приложения.\n \nAt the airport we were asked to take COVID tests. - В аэропорту нас попросили здать тесты на COVID."
+    },
+    {
+      "id": "20220712014847",
+      "description": "Running is the process of moving quickly in area with your feet.",
+      "usualCase": "Running is very healthy. - Бег очень полезный для здоровья."
+    },
+    {
+      "id": "20220715222448",
+      "description": "",
+      "usualCase": ""
+    },
+    {
+      "id": "20220715222620",
+      "description": "",
+      "usualCase": ""
+    },
+    {
+      "id": "20220715222706",
+      "description": "",
+      "usualCase": ""
+    },
+    {
+      "id": "20220715222854",
+      "description": "",
+      "usualCase": ""
+    },
+    {
+      "id": "20220715222937",
+      "description": "",
+      "usualCase": ""
+    }
+  ]
+}

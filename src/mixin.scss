@@ -1,0 +1,11 @@
+@import './variables';
+
+@mixin  scrollbar {
+    width: 4px;
+    background-color: $scrollbar_bg;
+}
+
+@mixin scrollbar-thumb {
+    background-color: $scrollbar-thumb_bg;
+    border-radius: 2px;
+}
